@@ -10,7 +10,7 @@
 # This script forwards a number of configured local ports
 # to local or remote socket servers based on content (HTTP/HTTPS).
 #
- 
+
 import socket
 import sys
 import thread
@@ -50,7 +50,7 @@ def server(*settings):
     finally:
         thread.start_new_thread(server, settings)
 
-# multiplexing forwarding 
+# multiplexing forwarding
 def forwardClientToServer(settings, source):
     global httpMethods
     string = ' '

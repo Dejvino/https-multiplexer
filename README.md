@@ -13,4 +13,4 @@ Add to the config file multiplexer.config lines with contents as follows:
 
 Start the application at command line with 'sudo python port-forward.py' and stop the application by keying in &lt;ctrl-c&gt;.
 
-Error messages are stored in file 'error.log'.
+Error messages are stored in file 'error.multiplexer.log'.
